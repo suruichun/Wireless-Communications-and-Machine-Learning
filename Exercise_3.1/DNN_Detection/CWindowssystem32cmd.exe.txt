@@ -1,0 +1,3288 @@
+甇????寞活?瑁?皜祈岫...
+2026-05-09 23:32:09.873066: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+WARNING:tensorflow:From C:\Users\User\Desktop\wcmlbook\ch3\Exercise_3.1\DNN_Detection\Train.py:6: The name tf.disable_v2_behavior is deprecated. Please use tf.compat.v1.disable_v2_behavior instead.
+
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\compat\v2_compat.py:108: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+../H_dataset/
+Load Training Pilots txt
+WARNING:tensorflow:From C:\Users\User\Desktop\wcmlbook\ch3\Exercise_3.1\DNN_Detection\Train.py:103: The name tf.train.RMSPropOptimizer is deprecated. Please use tf.compat.v1.train.RMSPropOptimizer instead.
+
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\training\rmsprop.py:188: calling Ones.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+length of training channel response 3000000 length of testing channel response 1000000
+2026-05-09 23:32:52.449931: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized touse available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-05-09 23:32:52.455327: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:388] MLIR V1 optimization pass is not enabled
+0
+Epoch: 0001 cost= 0.250606158
+Big Test Set
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\util\dispatch.py:1260: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+BER on test set  0.39795
+BER on train set 0.35131836
+1
+2
+3
+4
+5
+Epoch: 0006 cost= 0.079448961
+BER on test set  0.09981251
+BER on train set 0.095703125
+6
+7
+8
+9
+10
+Epoch: 0011 cost= 0.073904319
+BER on test set  0.101125
+BER on train set 0.072753906
+11
+12
+13
+14
+15
+Epoch: 0016 cost= 0.071079333
+BER on test set  0.09987497
+BER on train set 0.0769043
+16
+17
+18
+19
+20
+Epoch: 0021 cost= 0.067571844
+BER on test set  0.089625
+BER on train set 0.092041016
+21
+22
+23
+24
+25
+Epoch: 0026 cost= 0.065997565
+BER on test set  0.09937501
+BER on train set 0.08178711
+26
+27
+28
+29
+30
+Epoch: 0031 cost= 0.066092015
+BER on test set  0.08731252
+BER on train set 0.080078125
+31
+32
+33
+34
+35
+Epoch: 0036 cost= 0.066055077
+BER on test set  0.088750005
+BER on train set 0.076416016
+36
+37
+38
+39
+40
+Epoch: 0041 cost= 0.065606989
+BER on test set  0.0958125
+BER on train set 0.09790039
+41
+42
+43
+44
+45
+Epoch: 0046 cost= 0.065303281
+BER on test set  0.09912503
+BER on train set 0.09375
+46
+47
+48
+49
+50
+Epoch: 0051 cost= 0.064664108
+BER on test set  0.088750005
+BER on train set 0.08081055
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\training\saver.py:1067: remove_checkpoint (from tensorflow.python.checkpoint.checkpoint_management) is deprecated and will beremoved in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+51
+52
+53
+54
+55
+Epoch: 0056 cost= 0.065343797
+BER on test set  0.09675002
+BER on train set 0.1003418
+56
+57
+58
+59
+60
+Epoch: 0061 cost= 0.065491124
+BER on test set  0.089562476
+BER on train set 0.0949707
+61
+62
+63
+64
+65
+Epoch: 0066 cost= 0.065225532
+BER on test set  0.09200001
+BER on train set 0.095703125
+66
+67
+68
+69
+70
+Epoch: 0071 cost= 0.065059690
+BER on test set  0.08731252
+BER on train set 0.08496094
+71
+72
+73
+74
+75
+Epoch: 0076 cost= 0.064844260
+BER on test set  0.0941875
+BER on train set 0.08251953
+76
+77
+78
+79
+80
+Epoch: 0081 cost= 0.065057175
+BER on test set  0.086375
+BER on train set 0.09741211
+81
+82
+83
+84
+85
+Epoch: 0086 cost= 0.064423052
+BER on test set  0.09631252
+BER on train set 0.0925293
+86
+87
+88
+89
+90
+Epoch: 0091 cost= 0.065000384
+BER on test set  0.088
+BER on train set 0.10205078
+91
+92
+93
+94
+95
+Epoch: 0096 cost= 0.064960002
+BER on test set  0.09074998
+BER on train set 0.09399414
+96
+97
+98
+99
+100
+Epoch: 0101 cost= 0.065446176
+BER on test set  0.09206247
+BER on train set 0.096191406
+101
+102
+103
+104
+105
+Epoch: 0106 cost= 0.065135465
+BER on test set  0.08831251
+BER on train set 0.084228516
+106
+107
+108
+109
+110
+Epoch: 0111 cost= 0.065180246
+BER on test set  0.09087503
+BER on train set 0.08227539
+111
+112
+113
+114
+115
+Epoch: 0116 cost= 0.064850148
+BER on test set  0.0933125
+BER on train set 0.10473633
+116
+117
+118
+119
+optimization finished
+2026-05-09 23:45:23.056783: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+WARNING:tensorflow:From C:\Users\User\Desktop\wcmlbook\ch3\Exercise_3.1\DNN_Detection\Train.py:6: The name tf.disable_v2_behavior is deprecated. Please use tf.compat.v1.disable_v2_behavior instead.
+
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\compat\v2_compat.py:108: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+../H_dataset/
+Load Training Pilots txt
+WARNING:tensorflow:From C:\Users\User\Desktop\wcmlbook\ch3\Exercise_3.1\DNN_Detection\Train.py:103: The name tf.train.RMSPropOptimizer is deprecated. Please use tf.compat.v1.train.RMSPropOptimizer instead.
+
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\training\rmsprop.py:188: calling Ones.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+length of training channel response 3000000 length of testing channel response 1000000
+2026-05-09 23:46:04.431744: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized touse available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-05-09 23:46:04.435832: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:388] MLIR V1 optimization pass is not enabled
+0
+Epoch: 0001 cost= 0.251591658
+Big Test Set
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\util\dispatch.py:1260: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+BER on test set  0.478
+BER on train set 0.42333984
+1
+2
+3
+4
+5
+Epoch: 0006 cost= 0.099423416
+BER on test set  0.13593751
+BER on train set 0.10571289
+6
+7
+8
+9
+10
+Epoch: 0011 cost= 0.088079415
+BER on test set  0.12462503
+BER on train set 0.092041016
+11
+12
+13
+14
+15
+Epoch: 0016 cost= 0.085148367
+BER on test set  0.121375024
+BER on train set 0.09423828
+16
+17
+18
+19
+20
+Epoch: 0021 cost= 0.081973392
+BER on test set  0.11606252
+BER on train set 0.10839844
+21
+22
+23
+24
+25
+Epoch: 0026 cost= 0.080193223
+BER on test set  0.11431253
+BER on train set 0.10083008
+26
+27
+28
+29
+30
+Epoch: 0031 cost= 0.079930385
+BER on test set  0.107124984
+BER on train set 0.1015625
+31
+32
+33
+34
+35
+Epoch: 0036 cost= 0.080231325
+BER on test set  0.11431253
+BER on train set 0.11767578
+36
+37
+38
+39
+40
+Epoch: 0041 cost= 0.079240394
+BER on test set  0.11618751
+BER on train set 0.109375
+41
+42
+43
+44
+45
+Epoch: 0046 cost= 0.079029018
+BER on test set  0.10962498
+BER on train set 0.12158203
+46
+47
+48
+49
+50
+Epoch: 0051 cost= 0.079078541
+BER on test set  0.116312504
+BER on train set 0.12158203
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\training\saver.py:1067: remove_checkpoint (from tensorflow.python.checkpoint.checkpoint_management) is deprecated and will beremoved in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+51
+52
+53
+54
+55
+Epoch: 0056 cost= 0.078846896
+BER on test set  0.10606247
+BER on train set 0.10449219
+56
+57
+58
+59
+60
+Epoch: 0061 cost= 0.079154495
+BER on test set  0.11524999
+BER on train set 0.107666016
+61
+62
+63
+64
+65
+Epoch: 0066 cost= 0.078646784
+BER on test set  0.11281252
+BER on train set 0.103515625
+66
+67
+68
+69
+70
+Epoch: 0071 cost= 0.078717823
+BER on test set  0.117250025
+BER on train set 0.09814453
+71
+72
+73
+74
+75
+Epoch: 0076 cost= 0.079020847
+BER on test set  0.11799997
+BER on train set 0.10449219
+76
+77
+78
+79
+80
+Epoch: 0081 cost= 0.078890128
+BER on test set  0.11224997
+BER on train set 0.12011719
+81
+82
+83
+84
+85
+Epoch: 0086 cost= 0.079098663
+BER on test set  0.117250025
+BER on train set 0.13085938
+86
+87
+88
+89
+90
+Epoch: 0091 cost= 0.079350061
+BER on test set  0.114374995
+BER on train set 0.1027832
+91
+92
+93
+94
+95
+Epoch: 0096 cost= 0.079317337
+BER on test set  0.114374995
+BER on train set 0.10424805
+96
+97
+98
+99
+100
+Epoch: 0101 cost= 0.078803556
+BER on test set  0.10399997
+BER on train set 0.119628906
+101
+102
+103
+104
+105
+Epoch: 0106 cost= 0.078773208
+BER on test set  0.11062503
+BER on train set 0.10424805
+106
+107
+108
+109
+110
+Epoch: 0111 cost= 0.078547895
+BER on test set  0.1171875
+BER on train set 0.11425781
+111
+112
+113
+114
+115
+Epoch: 0116 cost= 0.078681043
+BER on test set  0.11331248
+BER on train set 0.10449219
+116
+117
+118
+119
+optimization finished
+2026-05-10 00:00:39.270753: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+WARNING:tensorflow:From C:\Users\User\Desktop\wcmlbook\ch3\Exercise_3.1\DNN_Detection\Train.py:6: The name tf.disable_v2_behavior is deprecated. Please use tf.compat.v1.disable_v2_behavior instead.
+
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\compat\v2_compat.py:108: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+../H_dataset/
+Load Training Pilots txt
+WARNING:tensorflow:From C:\Users\User\Desktop\wcmlbook\ch3\Exercise_3.1\DNN_Detection\Train.py:103: The name tf.train.RMSPropOptimizer is deprecated. Please use tf.compat.v1.train.RMSPropOptimizer instead.
+
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\training\rmsprop.py:188: calling Ones.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+length of training channel response 3000000 length of testing channel response 1000000
+2026-05-10 00:01:29.003185: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized touse available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-05-10 00:01:29.007154: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:388] MLIR V1 optimization pass is not enabled
+0
+Epoch: 0001 cost= 0.251675297
+Big Test Set
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\util\dispatch.py:1260: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+BER on test set  0.48785
+BER on train set 0.44555664
+1
+2
+3
+4
+5
+Epoch: 0006 cost= 0.114108559
+BER on test set  0.15318751
+BER on train set 0.13012695
+6
+7
+8
+9
+10
+Epoch: 0011 cost= 0.105436030
+BER on test set  0.15306252
+BER on train set 0.11621094
+11
+12
+13
+14
+15
+Epoch: 0016 cost= 0.100746813
+BER on test set  0.13843751
+BER on train set 0.10595703
+16
+17
+18
+19
+20
+Epoch: 0021 cost= 0.096397534
+BER on test set  0.13431251
+BER on train set 0.13232422
+21
+22
+23
+24
+25
+Epoch: 0026 cost= 0.094378599
+BER on test set  0.13550001
+BER on train set 0.13378906
+26
+27
+28
+29
+30
+Epoch: 0031 cost= 0.094434085
+BER on test set  0.139
+BER on train set 0.12084961
+31
+32
+33
+34
+35
+Epoch: 0036 cost= 0.094662717
+BER on test set  0.1369375
+BER on train set 0.13012695
+36
+37
+38
+39
+40
+Epoch: 0041 cost= 0.093396469
+BER on test set  0.13306248
+BER on train set 0.12792969
+41
+42
+43
+44
+45
+Epoch: 0046 cost= 0.093567717
+BER on test set  0.13125002
+BER on train set 0.12988281
+46
+47
+48
+49
+50
+Epoch: 0051 cost= 0.092612058
+BER on test set  0.13024998
+BER on train set 0.14624023
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\training\saver.py:1067: remove_checkpoint (from tensorflow.python.checkpoint.checkpoint_management) is deprecated and will beremoved in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+51
+52
+53
+54
+55
+Epoch: 0056 cost= 0.093281346
+BER on test set  0.1303125
+BER on train set 0.12451172
+56
+57
+58
+59
+60
+Epoch: 0061 cost= 0.092754666
+BER on test set  0.12924999
+BER on train set 0.1237793
+61
+62
+63
+64
+65
+Epoch: 0066 cost= 0.092844169
+BER on test set  0.13493752
+BER on train set 0.13964844
+66
+67
+68
+69
+70
+Epoch: 0071 cost= 0.092559428
+BER on test set  0.12612498
+BER on train set 0.14648438
+71
+72
+73
+74
+75
+Epoch: 0076 cost= 0.092734260
+BER on test set  0.12712502
+BER on train set 0.13720703
+76
+77
+78
+79
+80
+Epoch: 0081 cost= 0.092825122
+BER on test set  0.13331252
+BER on train set 0.12231445
+81
+82
+83
+84
+85
+Epoch: 0086 cost= 0.092985793
+BER on test set  0.13268751
+BER on train set 0.1303711
+86
+87
+88
+89
+90
+Epoch: 0091 cost= 0.092970284
+BER on test set  0.13381249
+BER on train set 0.12939453
+91
+92
+93
+94
+95
+Epoch: 0096 cost= 0.092620037
+BER on test set  0.13575
+BER on train set 0.13964844
+96
+97
+98
+99
+100
+Epoch: 0101 cost= 0.093143392
+BER on test set  0.13687497
+BER on train set 0.13183594
+101
+102
+103
+104
+105
+Epoch: 0106 cost= 0.093558496
+BER on test set  0.12968749
+BER on train set 0.14160156
+106
+107
+108
+109
+110
+Epoch: 0111 cost= 0.093477629
+BER on test set  0.13718748
+BER on train set 0.13500977
+111
+112
+113
+114
+115
+Epoch: 0116 cost= 0.093071841
+BER on test set  0.13300002
+BER on train set 0.13427734
+116
+117
+118
+119
+optimization finished
+2026-05-10 00:16:03.666273: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+WARNING:tensorflow:From C:\Users\User\Desktop\wcmlbook\ch3\Exercise_3.1\DNN_Detection\Train.py:6: The name tf.disable_v2_behavior is deprecated. Please use tf.compat.v1.disable_v2_behavior instead.
+
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\compat\v2_compat.py:108: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+../H_dataset/
+Load Training Pilots txt
+WARNING:tensorflow:From C:\Users\User\Desktop\wcmlbook\ch3\Exercise_3.1\DNN_Detection\Train.py:103: The name tf.train.RMSPropOptimizer is deprecated. Please use tf.compat.v1.train.RMSPropOptimizer instead.
+
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\training\rmsprop.py:188: calling Ones.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+length of training channel response 3000000 length of testing channel response 1000000
+2026-05-10 00:16:45.439133: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized touse available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-05-10 00:16:45.443334: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:388] MLIR V1 optimization pass is not enabled
+0
+Epoch: 0001 cost= 0.249836487
+Big Test Set
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\util\dispatch.py:1260: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+BER on test set  0.37586874
+BER on train set 0.32666016
+1
+2
+3
+4
+5
+Epoch: 0006 cost= 0.039602076
+BER on test set  0.053687513
+BER on train set 0.040527344
+6
+7
+8
+9
+10
+Epoch: 0011 cost= 0.032133012
+BER on test set  0.043937504
+BER on train set 0.03100586
+11
+12
+13
+14
+15
+Epoch: 0016 cost= 0.030306567
+BER on test set  0.041750014
+BER on train set 0.01928711
+16
+17
+18
+19
+20
+Epoch: 0021 cost= 0.026884366
+BER on test set  0.035187483
+BER on train set 0.030517578
+21
+22
+23
+24
+25
+Epoch: 0026 cost= 0.025710628
+BER on test set  0.037249982
+BER on train set 0.033935547
+26
+27
+28
+29
+30
+Epoch: 0031 cost= 0.025981450
+BER on test set  0.037249982
+BER on train set 0.030029297
+31
+32
+33
+34
+35
+Epoch: 0036 cost= 0.025437614
+BER on test set  0.039937496
+BER on train set 0.029785156
+36
+37
+38
+39
+40
+Epoch: 0041 cost= 0.025151206
+BER on test set  0.03275001
+BER on train set 0.03540039
+41
+42
+43
+44
+45
+Epoch: 0046 cost= 0.025208777
+BER on test set  0.033500016
+BER on train set 0.037353516
+46
+47
+48
+49
+50
+Epoch: 0051 cost= 0.024855078
+BER on test set  0.037374973
+BER on train set 0.033447266
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\training\saver.py:1067: remove_checkpoint (from tensorflow.python.checkpoint.checkpoint_management) is deprecated and will beremoved in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+51
+52
+53
+54
+55
+Epoch: 0056 cost= 0.024489720
+BER on test set  0.031750023
+BER on train set 0.031982422
+56
+57
+58
+59
+60
+Epoch: 0061 cost= 0.024119930
+BER on test set  0.03468752
+BER on train set 0.03857422
+61
+62
+63
+64
+65
+Epoch: 0066 cost= 0.024453219
+BER on test set  0.034749985
+BER on train set 0.030029297
+66
+67
+68
+69
+70
+Epoch: 0071 cost= 0.024396683
+BER on test set  0.03343749
+BER on train set 0.02758789
+71
+72
+73
+74
+75
+Epoch: 0076 cost= 0.024630597
+BER on test set  0.035375
+BER on train set 0.030273438
+76
+77
+78
+79
+80
+Epoch: 0081 cost= 0.024288394
+BER on test set  0.035000026
+BER on train set 0.031982422
+81
+82
+83
+84
+85
+Epoch: 0086 cost= 0.024465134
+BER on test set  0.034562528
+BER on train set 0.029296875
+86
+87
+88
+89
+90
+Epoch: 0091 cost= 0.024618706
+BER on test set  0.032124996
+BER on train set 0.026367188
+91
+92
+93
+94
+95
+Epoch: 0096 cost= 0.024507538
+BER on test set  0.032937527
+BER on train set 0.034179688
+96
+97
+98
+99
+100
+Epoch: 0101 cost= 0.024550258
+BER on test set  0.032124996
+BER on train set 0.032714844
+101
+102
+103
+104
+105
+Epoch: 0106 cost= 0.024541412
+BER on test set  0.03549999
+BER on train set 0.043701172
+106
+107
+108
+109
+110
+Epoch: 0111 cost= 0.024402815
+BER on test set  0.030937493
+BER on train set 0.036621094
+111
+112
+113
+114
+115
+Epoch: 0116 cost= 0.024671712
+BER on test set  0.035000026
+BER on train set 0.029296875
+116
+117
+118
+119
+optimization finished
+2026-05-10 00:29:29.500060: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+WARNING:tensorflow:From C:\Users\User\Desktop\wcmlbook\ch3\Exercise_3.1\DNN_Detection\Train.py:6: The name tf.disable_v2_behavior is deprecated. Please use tf.compat.v1.disable_v2_behavior instead.
+
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\compat\v2_compat.py:108: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+../H_dataset/
+Load Training Pilots txt
+WARNING:tensorflow:From C:\Users\User\Desktop\wcmlbook\ch3\Exercise_3.1\DNN_Detection\Train.py:103: The name tf.train.RMSPropOptimizer is deprecated. Please use tf.compat.v1.train.RMSPropOptimizer instead.
+
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\training\rmsprop.py:188: calling Ones.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+length of training channel response 3000000 length of testing channel response 1000000
+2026-05-10 00:30:10.591856: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized touse available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-05-10 00:30:10.595791: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:388] MLIR V1 optimization pass is not enabled
+0
+Epoch: 0001 cost= 0.251497713
+Big Test Set
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\util\dispatch.py:1260: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+BER on test set  0.46549374
+BER on train set 0.40307617
+1
+2
+3
+4
+5
+Epoch: 0006 cost= 0.054776767
+BER on test set  0.07837498
+BER on train set 0.05053711
+6
+7
+8
+9
+10
+Epoch: 0011 cost= 0.040882111
+BER on test set  0.05756247
+BER on train set 0.041503906
+11
+12
+13
+14
+15
+Epoch: 0016 cost= 0.037956216
+BER on test set  0.050750017
+BER on train set 0.03930664
+16
+17
+18
+19
+20
+Epoch: 0021 cost= 0.034104292
+BER on test set  0.04962498
+BER on train set 0.03491211
+21
+22
+23
+24
+25
+Epoch: 0026 cost= 0.033420302
+BER on test set  0.04468751
+BER on train set 0.045898438
+26
+27
+28
+29
+30
+Epoch: 0031 cost= 0.033035642
+BER on test set  0.049812496
+BER on train set 0.045654297
+31
+32
+33
+34
+35
+Epoch: 0036 cost= 0.032873261
+BER on test set  0.04743749
+BER on train set 0.035888672
+36
+37
+38
+39
+40
+Epoch: 0041 cost= 0.032052812
+BER on test set  0.046500027
+BER on train set 0.043701172
+41
+42
+43
+44
+45
+Epoch: 0046 cost= 0.031858693
+BER on test set  0.047249973
+BER on train set 0.04321289
+46
+47
+48
+49
+50
+Epoch: 0051 cost= 0.031893189
+BER on test set  0.047187507
+BER on train set 0.041992188
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\training\saver.py:1067: remove_checkpoint (from tensorflow.python.checkpoint.checkpoint_management) is deprecated and will beremoved in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+51
+52
+53
+54
+55
+Epoch: 0056 cost= 0.032100494
+BER on test set  0.042187512
+BER on train set 0.04711914
+56
+57
+58
+59
+60
+Epoch: 0061 cost= 0.031744640
+BER on test set  0.04987502
+BER on train set 0.041015625
+61
+62
+63
+64
+65
+Epoch: 0066 cost= 0.031643368
+BER on test set  0.048062503
+BER on train set 0.04345703
+66
+67
+68
+69
+70
+Epoch: 0071 cost= 0.031504274
+BER on test set  0.039937496
+BER on train set 0.04638672
+71
+72
+73
+74
+75
+Epoch: 0076 cost= 0.031573394
+BER on test set  0.040374994
+BER on train set 0.044189453
+76
+77
+78
+79
+80
+Epoch: 0081 cost= 0.031505109
+BER on test set  0.0431875
+BER on train set 0.049316406
+81
+82
+83
+84
+85
+Epoch: 0086 cost= 0.031625744
+BER on test set  0.041437507
+BER on train set 0.05078125
+86
+87
+88
+89
+90
+Epoch: 0091 cost= 0.031661843
+BER on test set  0.04137498
+BER on train set 0.041015625
+91
+92
+93
+94
+95
+Epoch: 0096 cost= 0.031688530
+BER on test set  0.048062503
+BER on train set 0.038085938
+96
+97
+98
+99
+100
+Epoch: 0101 cost= 0.031778632
+BER on test set  0.0448125
+BER on train set 0.052246094
+101
+102
+103
+104
+105
+Epoch: 0106 cost= 0.031791988
+BER on test set  0.04343748
+BER on train set 0.040039062
+106
+107
+108
+109
+110
+Epoch: 0111 cost= 0.031857434
+BER on test set  0.043124974
+BER on train set 0.040283203
+111
+112
+113
+114
+115
+Epoch: 0116 cost= 0.031740144
+BER on test set  0.045125008
+BER on train set 0.046142578
+116
+117
+118
+119
+optimization finished
+2026-05-10 00:44:28.034896: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+WARNING:tensorflow:From C:\Users\User\Desktop\wcmlbook\ch3\Exercise_3.1\DNN_Detection\Train.py:6: The name tf.disable_v2_behavior is deprecated. Please use tf.compat.v1.disable_v2_behavior instead.
+
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\compat\v2_compat.py:108: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+../H_dataset/
+Load Training Pilots txt
+WARNING:tensorflow:From C:\Users\User\Desktop\wcmlbook\ch3\Exercise_3.1\DNN_Detection\Train.py:103: The name tf.train.RMSPropOptimizer is deprecated. Please use tf.compat.v1.train.RMSPropOptimizer instead.
+
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\training\rmsprop.py:188: calling Ones.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+length of training channel response 3000000 length of testing channel response 1000000
+2026-05-10 00:45:09.333923: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized touse available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-05-10 00:45:09.337833: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:388] MLIR V1 optimization pass is not enabled
+0
+Epoch: 0001 cost= 0.251768438
+Big Test Set
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\util\dispatch.py:1260: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+BER on test set  0.48307502
+BER on train set 0.43115234
+1
+2
+3
+4
+5
+Epoch: 0006 cost= 0.066311101
+BER on test set  0.08993751
+BER on train set 0.05444336
+6
+7
+8
+9
+10
+Epoch: 0011 cost= 0.053157825
+BER on test set  0.0678125
+BER on train set 0.06567383
+11
+12
+13
+14
+15
+Epoch: 0016 cost= 0.047654228
+BER on test set  0.064625025
+BER on train set 0.048339844
+16
+17
+18
+19
+20
+Epoch: 0021 cost= 0.043483378
+BER on test set  0.06156248
+BER on train set 0.047607422
+21
+22
+23
+24
+25
+Epoch: 0026 cost= 0.042678630
+BER on test set  0.055812478
+BER on train set 0.055908203
+26
+27
+28
+29
+30
+Epoch: 0031 cost= 0.041762114
+BER on test set  0.06056249
+BER on train set 0.0625
+31
+32
+33
+34
+35
+Epoch: 0036 cost= 0.041401722
+BER on test set  0.061999977
+BER on train set 0.0546875
+36
+37
+38
+39
+40
+Epoch: 0041 cost= 0.041318499
+BER on test set  0.059000015
+BER on train set 0.056640625
+41
+42
+43
+44
+45
+Epoch: 0046 cost= 0.040612323
+BER on test set  0.055812478
+BER on train set 0.046875
+46
+47
+48
+49
+50
+Epoch: 0051 cost= 0.040650729
+BER on test set  0.05456251
+BER on train set 0.049316406
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\training\saver.py:1067: remove_checkpoint (from tensorflow.python.checkpoint.checkpoint_management) is deprecated and will beremoved in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+51
+52
+53
+54
+55
+Epoch: 0056 cost= 0.040529614
+BER on test set  0.056249976
+BER on train set 0.051513672
+56
+57
+58
+59
+60
+Epoch: 0061 cost= 0.040450953
+BER on test set  0.05893749
+BER on train set 0.05810547
+61
+62
+63
+64
+65
+Epoch: 0066 cost= 0.040567373
+BER on test set  0.056375027
+BER on train set 0.05078125
+66
+67
+68
+69
+70
+Epoch: 0071 cost= 0.040138244
+BER on test set  0.05731249
+BER on train set 0.07324219
+71
+72
+73
+74
+75
+Epoch: 0076 cost= 0.040803740
+BER on test set  0.05731249
+BER on train set 0.047851562
+76
+77
+78
+79
+80
+Epoch: 0081 cost= 0.040615133
+BER on test set  0.05743748
+BER on train set 0.053710938
+81
+82
+83
+84
+85
+Epoch: 0086 cost= 0.040708784
+BER on test set  0.056437492
+BER on train set 0.05078125
+86
+87
+88
+89
+90
+Epoch: 0091 cost= 0.040809484
+BER on test set  0.061062515
+BER on train set 0.05883789
+91
+92
+93
+94
+95
+Epoch: 0096 cost= 0.040551321
+BER on test set  0.062562525
+BER on train set 0.05517578
+96
+97
+98
+99
+100
+Epoch: 0101 cost= 0.040599834
+BER on test set  0.058312476
+BER on train set 0.053222656
+101
+102
+103
+104
+105
+Epoch: 0106 cost= 0.040755002
+BER on test set  0.058624983
+BER on train set 0.056152344
+106
+107
+108
+109
+110
+Epoch: 0111 cost= 0.040547868
+BER on test set  0.058000028
+BER on train set 0.055908203
+111
+112
+113
+114
+115
+Epoch: 0116 cost= 0.040412305
+BER on test set  0.05593753
+BER on train set 0.05859375
+116
+117
+118
+119
+optimization finished
+2026-05-10 00:59:46.275453: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+WARNING:tensorflow:From C:\Users\User\Desktop\wcmlbook\ch3\Exercise_3.1\DNN_Detection\Train.py:6: The name tf.disable_v2_behavior is deprecated. Please use tf.compat.v1.disable_v2_behavior instead.
+
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\compat\v2_compat.py:108: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+../H_dataset/
+Load Training Pilots txt
+WARNING:tensorflow:From C:\Users\User\Desktop\wcmlbook\ch3\Exercise_3.1\DNN_Detection\Train.py:103: The name tf.train.RMSPropOptimizer is deprecated. Please use tf.compat.v1.train.RMSPropOptimizer instead.
+
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\training\rmsprop.py:188: calling Ones.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+length of training channel response 3000000 length of testing channel response 1000000
+2026-05-10 01:00:49.055477: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized touse available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-05-10 01:00:49.060930: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:388] MLIR V1 optimization pass is not enabled
+0
+Epoch: 0001 cost= 0.249540201
+Big Test Set
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\util\dispatch.py:1260: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+BER on test set  0.35264373
+BER on train set 0.30322266
+1
+2
+3
+4
+5
+Epoch: 0006 cost= 0.023189985
+BER on test set  0.030375004
+BER on train set 0.016845703
+6
+7
+8
+9
+10
+Epoch: 0011 cost= 0.015798750
+BER on test set  0.023062527
+BER on train set 0.011962891
+11
+12
+13
+14
+15
+Epoch: 0016 cost= 0.014105965
+BER on test set  0.018625021
+BER on train set 0.008056641
+16
+17
+18
+19
+20
+Epoch: 0021 cost= 0.010951360
+BER on test set  0.016062498
+BER on train set 0.008300781
+21
+22
+23
+24
+25
+Epoch: 0026 cost= 0.010188162
+BER on test set  0.0128750205
+BER on train set 0.009521484
+26
+27
+28
+29
+30
+Epoch: 0031 cost= 0.009815207
+BER on test set  0.017624974
+BER on train set 0.010009766
+31
+32
+33
+34
+35
+Epoch: 0036 cost= 0.009834957
+BER on test set  0.01343751
+BER on train set 0.008300781
+36
+37
+38
+39
+40
+Epoch: 0041 cost= 0.009280918
+BER on test set  0.01137501
+BER on train set 0.007080078
+41
+42
+43
+44
+45
+Epoch: 0046 cost= 0.009354293
+BER on test set  0.013812482
+BER on train set 0.0126953125
+46
+47
+48
+49
+50
+Epoch: 0051 cost= 0.009020784
+BER on test set  0.010124981
+BER on train set 0.006591797
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\training\saver.py:1067: remove_checkpoint (from tensorflow.python.checkpoint.checkpoint_management) is deprecated and will beremoved in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+51
+52
+53
+54
+55
+Epoch: 0056 cost= 0.009206201
+BER on test set  0.012562513
+BER on train set 0.012939453
+56
+57
+58
+59
+60
+Epoch: 0061 cost= 0.008952473
+BER on test set  0.011874974
+BER on train set 0.015136719
+61
+62
+63
+64
+65
+Epoch: 0066 cost= 0.009220539
+BER on test set  0.01068747
+BER on train set 0.011474609
+66
+67
+68
+69
+70
+Epoch: 0071 cost= 0.009120927
+BER on test set  0.0105624795
+BER on train set 0.009277344
+71
+72
+73
+74
+75
+Epoch: 0076 cost= 0.008819031
+BER on test set  0.013125002
+BER on train set 0.013671875
+76
+77
+78
+79
+80
+Epoch: 0081 cost= 0.008955417
+BER on test set  0.013000011
+BER on train set 0.012207031
+81
+82
+83
+84
+85
+Epoch: 0086 cost= 0.009032918
+BER on test set  0.011937499
+BER on train set 0.0078125
+86
+87
+88
+89
+90
+Epoch: 0091 cost= 0.009147303
+BER on test set  0.012187481
+BER on train set 0.012451172
+91
+92
+93
+94
+95
+Epoch: 0096 cost= 0.008770712
+BER on test set  0.011812508
+BER on train set 0.0126953125
+96
+97
+98
+99
+100
+Epoch: 0101 cost= 0.008922663
+BER on test set  0.013125002
+BER on train set 0.009033203
+101
+102
+103
+104
+105
+Epoch: 0106 cost= 0.008879176
+BER on test set  0.014750004
+BER on train set 0.017578125
+106
+107
+108
+109
+110
+Epoch: 0111 cost= 0.008842915
+BER on test set  0.013374984
+BER on train set 0.012939453
+111
+112
+113
+114
+115
+Epoch: 0116 cost= 0.008906416
+BER on test set  0.014999986
+BER on train set 0.014892578
+116
+117
+118
+119
+optimization finished
+2026-05-10 01:16:32.089379: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+WARNING:tensorflow:From C:\Users\User\Desktop\wcmlbook\ch3\Exercise_3.1\DNN_Detection\Train.py:6: The name tf.disable_v2_behavior is deprecated. Please use tf.compat.v1.disable_v2_behavior instead.
+
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\compat\v2_compat.py:108: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+../H_dataset/
+Load Training Pilots txt
+WARNING:tensorflow:From C:\Users\User\Desktop\wcmlbook\ch3\Exercise_3.1\DNN_Detection\Train.py:103: The name tf.train.RMSPropOptimizer is deprecated. Please use tf.compat.v1.train.RMSPropOptimizer instead.
+
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\training\rmsprop.py:188: calling Ones.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+length of training channel response 3000000 length of testing channel response 1000000
+2026-05-10 01:17:13.494014: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized touse available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-05-10 01:17:13.498057: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:388] MLIR V1 optimization pass is not enabled
+0
+Epoch: 0001 cost= 0.251151695
+Big Test Set
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\util\dispatch.py:1260: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+BER on test set  0.46295625
+BER on train set 0.3947754
+1
+2
+3
+4
+5
+Epoch: 0006 cost= 0.036209323
+BER on test set  0.051562488
+BER on train set 0.041503906
+6
+7
+8
+9
+10
+Epoch: 0011 cost= 0.021414670
+BER on test set  0.029687524
+BER on train set 0.015380859
+11
+12
+13
+14
+15
+Epoch: 0016 cost= 0.017888454
+BER on test set  0.026687503
+BER on train set 0.010986328
+16
+17
+18
+19
+20
+Epoch: 0021 cost= 0.014689339
+BER on test set  0.017374992
+BER on train set 0.018310547
+21
+22
+23
+24
+25
+Epoch: 0026 cost= 0.014014447
+BER on test set  0.01918751
+BER on train set 0.013427734
+26
+27
+28
+29
+30
+Epoch: 0031 cost= 0.013233385
+BER on test set  0.019249976
+BER on train set 0.010986328
+31
+32
+33
+34
+35
+Epoch: 0036 cost= 0.013356692
+BER on test set  0.020749986
+BER on train set 0.008300781
+36
+37
+38
+39
+40
+Epoch: 0041 cost= 0.013095821
+BER on test set  0.018625021
+BER on train set 0.021240234
+41
+42
+43
+44
+45
+Epoch: 0046 cost= 0.012625390
+BER on test set  0.018187523
+BER on train set 0.016601562
+46
+47
+48
+49
+50
+Epoch: 0051 cost= 0.012472552
+BER on test set  0.0176875
+BER on train set 0.024169922
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\training\saver.py:1067: remove_checkpoint (from tensorflow.python.checkpoint.checkpoint_management) is deprecated and will beremoved in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+51
+52
+53
+54
+55
+Epoch: 0056 cost= 0.012681641
+BER on test set  0.017187476
+BER on train set 0.02319336
+56
+57
+58
+59
+60
+Epoch: 0061 cost= 0.012360770
+BER on test set  0.016062498
+BER on train set 0.016113281
+61
+62
+63
+64
+65
+Epoch: 0066 cost= 0.012589395
+BER on test set  0.019625008
+BER on train set 0.01171875
+66
+67
+68
+69
+70
+Epoch: 0071 cost= 0.012363303
+BER on test set  0.017499983
+BER on train set 0.019042969
+71
+72
+73
+74
+75
+Epoch: 0076 cost= 0.012379549
+BER on test set  0.015562475
+BER on train set 0.017822266
+76
+77
+78
+79
+80
+Epoch: 0081 cost= 0.012512691
+BER on test set  0.016499996
+BER on train set 0.018310547
+81
+82
+83
+84
+85
+Epoch: 0086 cost= 0.012280391
+BER on test set  0.01700002
+BER on train set 0.018554688
+86
+87
+88
+89
+90
+Epoch: 0091 cost= 0.012246497
+BER on test set  0.018312514
+BER on train set 0.017578125
+91
+92
+93
+94
+95
+Epoch: 0096 cost= 0.012396960
+BER on test set  0.01781249
+BER on train set 0.017089844
+96
+97
+98
+99
+100
+Epoch: 0101 cost= 0.012356813
+BER on test set  0.01837498
+BER on train set 0.020263672
+101
+102
+103
+104
+105
+Epoch: 0106 cost= 0.012302471
+BER on test set  0.016875029
+BER on train set 0.015625
+106
+107
+108
+109
+110
+Epoch: 0111 cost= 0.012424436
+BER on test set  0.015999973
+BER on train set 0.016845703
+111
+112
+113
+114
+115
+Epoch: 0116 cost= 0.012354395
+BER on test set  0.016624987
+BER on train set 0.018798828
+116
+117
+118
+119
+optimization finished
+2026-05-10 01:31:37.517606: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+WARNING:tensorflow:From C:\Users\User\Desktop\wcmlbook\ch3\Exercise_3.1\DNN_Detection\Train.py:6: The name tf.disable_v2_behavior is deprecated. Please use tf.compat.v1.disable_v2_behavior instead.
+
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\compat\v2_compat.py:108: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+../H_dataset/
+Load Training Pilots txt
+WARNING:tensorflow:From C:\Users\User\Desktop\wcmlbook\ch3\Exercise_3.1\DNN_Detection\Train.py:103: The name tf.train.RMSPropOptimizer is deprecated. Please use tf.compat.v1.train.RMSPropOptimizer instead.
+
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\training\rmsprop.py:188: calling Ones.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+length of training channel response 3000000 length of testing channel response 1000000
+2026-05-10 01:32:19.046939: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized touse available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-05-10 01:32:19.050872: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:388] MLIR V1 optimization pass is not enabled
+0
+Epoch: 0001 cost= 0.251557922
+Big Test Set
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\util\dispatch.py:1260: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+BER on test set  0.4875
+BER on train set 0.4326172
+1
+2
+3
+4
+5
+Epoch: 0006 cost= 0.044528363
+BER on test set  0.054875016
+BER on train set 0.052734375
+6
+7
+8
+9
+10
+Epoch: 0011 cost= 0.028062720
+BER on test set  0.04412502
+BER on train set 0.021728516
+11
+12
+13
+14
+15
+Epoch: 0016 cost= 0.023421978
+BER on test set  0.031437516
+BER on train set 0.01586914
+16
+17
+18
+19
+20
+Epoch: 0021 cost= 0.020370756
+BER on test set  0.026250005
+BER on train set 0.02368164
+21
+22
+23
+24
+25
+Epoch: 0026 cost= 0.018805744
+BER on test set  0.027312517
+BER on train set 0.020263672
+26
+27
+28
+29
+30
+Epoch: 0031 cost= 0.018228365
+BER on test set  0.02906251
+BER on train set 0.025634766
+31
+32
+33
+34
+35
+Epoch: 0036 cost= 0.018484761
+BER on test set  0.02562499
+BER on train set 0.020019531
+36
+37
+38
+39
+40
+Epoch: 0041 cost= 0.018073044
+BER on test set  0.0255
+BER on train set 0.018554688
+41
+42
+43
+44
+45
+Epoch: 0046 cost= 0.017720975
+BER on test set  0.02850002
+BER on train set 0.022949219
+46
+47
+48
+49
+50
+Epoch: 0051 cost= 0.017475306
+BER on test set  0.026624978
+BER on train set 0.025146484
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\training\saver.py:1067: remove_checkpoint (from tensorflow.python.checkpoint.checkpoint_management) is deprecated and will beremoved in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+51
+52
+53
+54
+55
+Epoch: 0056 cost= 0.017596760
+BER on test set  0.021562517
+BER on train set 0.021240234
+56
+57
+58
+59
+60
+Epoch: 0061 cost= 0.017431104
+BER on test set  0.025250018
+BER on train set 0.025634766
+61
+62
+63
+64
+65
+Epoch: 0066 cost= 0.017353488
+BER on test set  0.02206248
+BER on train set 0.025146484
+66
+67
+68
+69
+70
+Epoch: 0071 cost= 0.017469605
+BER on test set  0.018187523
+BER on train set 0.026123047
+71
+72
+73
+74
+75
+Epoch: 0076 cost= 0.017485901
+BER on test set  0.025187492
+BER on train set 0.032226562
+76
+77
+78
+79
+80
+Epoch: 0081 cost= 0.017429367
+BER on test set  0.023312509
+BER on train set 0.0234375
+81
+82
+83
+84
+85
+Epoch: 0086 cost= 0.017313563
+BER on test set  0.021875024
+BER on train set 0.02758789
+86
+87
+88
+89
+90
+Epoch: 0091 cost= 0.017519605
+BER on test set  0.024062514
+BER on train set 0.024658203
+91
+92
+93
+94
+95
+Epoch: 0096 cost= 0.017321798
+BER on test set  0.024749994
+BER on train set 0.025146484
+96
+97
+98
+99
+100
+Epoch: 0101 cost= 0.017233407
+BER on test set  0.0234375
+BER on train set 0.03125
+101
+102
+103
+104
+105
+Epoch: 0106 cost= 0.017328000
+BER on test set  0.026750028
+BER on train set 0.028320312
+106
+107
+108
+109
+110
+Epoch: 0111 cost= 0.017411221
+BER on test set  0.024187505
+BER on train set 0.018554688
+111
+112
+113
+114
+115
+Epoch: 0116 cost= 0.017420248
+BER on test set  0.027062476
+BER on train set 0.025634766
+116
+117
+118
+119
+optimization finished
+2026-05-10 01:46:53.574250: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+WARNING:tensorflow:From C:\Users\User\Desktop\wcmlbook\ch3\Exercise_3.1\DNN_Detection\Train.py:6: The name tf.disable_v2_behavior is deprecated. Please use tf.compat.v1.disable_v2_behavior instead.
+
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\compat\v2_compat.py:108: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+../H_dataset/
+Load Training Pilots txt
+WARNING:tensorflow:From C:\Users\User\Desktop\wcmlbook\ch3\Exercise_3.1\DNN_Detection\Train.py:103: The name tf.train.RMSPropOptimizer is deprecated. Please use tf.compat.v1.train.RMSPropOptimizer instead.
+
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\training\rmsprop.py:188: calling Ones.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+length of training channel response 3000000 length of testing channel response 1000000
+2026-05-10 01:47:35.245698: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized touse available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-05-10 01:47:35.249539: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:388] MLIR V1 optimization pass is not enabled
+0
+Epoch: 0001 cost= 0.249267547
+Big Test Set
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\util\dispatch.py:1260: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+BER on test set  0.35919374
+BER on train set 0.32470703
+1
+2
+3
+4
+5
+Epoch: 0006 cost= 0.018253182
+BER on test set  0.021624982
+BER on train set 0.009033203
+6
+7
+8
+9
+10
+Epoch: 0011 cost= 0.010306742
+BER on test set  0.011062503
+BER on train set 0.0036621094
+11
+12
+13
+14
+15
+Epoch: 0016 cost= 0.008017027
+BER on test set  0.010500014
+BER on train set 0.0031738281
+16
+17
+18
+19
+20
+Epoch: 0021 cost= 0.005504915
+BER on test set  0.008562505
+BER on train set 0.0034179688
+21
+22
+23
+24
+25
+Epoch: 0026 cost= 0.004582388
+BER on test set  0.0056250095
+BER on train set 0.0017089844
+26
+27
+28
+29
+30
+Epoch: 0031 cost= 0.004374012
+BER on test set  0.0059999824
+BER on train set 0.0017089844
+31
+32
+33
+34
+35
+Epoch: 0036 cost= 0.004160528
+BER on test set  0.0050625205
+BER on train set 0.0017089844
+36
+37
+38
+39
+40
+Epoch: 0041 cost= 0.004051170
+BER on test set  0.004562497
+BER on train set 0.00390625
+41
+42
+43
+44
+45
+Epoch: 0046 cost= 0.003835417
+BER on test set  0.004437506
+BER on train set 0.0034179688
+46
+47
+48
+49
+50
+Epoch: 0051 cost= 0.003998487
+BER on test set  0.0065624714
+BER on train set 0.0056152344
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\training\saver.py:1067: remove_checkpoint (from tensorflow.python.checkpoint.checkpoint_management) is deprecated and will beremoved in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+51
+52
+53
+54
+55
+Epoch: 0056 cost= 0.003688331
+BER on test set  0.0056250095
+BER on train set 0.0029296875
+56
+57
+58
+59
+60
+Epoch: 0061 cost= 0.003776973
+BER on test set  0.004437506
+BER on train set 0.005859375
+61
+62
+63
+64
+65
+Epoch: 0066 cost= 0.003781980
+BER on test set  0.004687488
+BER on train set 0.0034179688
+66
+67
+68
+69
+70
+Epoch: 0071 cost= 0.003787033
+BER on test set  0.0050625205
+BER on train set 0.0073242188
+71
+72
+73
+74
+75
+Epoch: 0076 cost= 0.003605861
+BER on test set  0.005687475
+BER on train set 0.0041503906
+76
+77
+78
+79
+80
+Epoch: 0081 cost= 0.003719248
+BER on test set  0.004499972
+BER on train set 0.006591797
+81
+82
+83
+84
+85
+Epoch: 0086 cost= 0.003675492
+BER on test set  0.004687488
+BER on train set 0.0034179688
+86
+87
+88
+89
+90
+Epoch: 0091 cost= 0.003670271
+BER on test set  0.005124986
+BER on train set 0.004638672
+91
+92
+93
+94
+95
+Epoch: 0096 cost= 0.003675705
+BER on test set  0.0038750172
+BER on train set 0.0036621094
+96
+97
+98
+99
+100
+Epoch: 0101 cost= 0.003657261
+BER on test set  0.004124999
+BER on train set 0.0061035156
+101
+102
+103
+104
+105
+Epoch: 0106 cost= 0.003666163
+BER on test set  0.004562497
+BER on train set 0.005859375
+106
+107
+108
+109
+110
+Epoch: 0111 cost= 0.003639779
+BER on test set  0.0053125024
+BER on train set 0.0078125
+111
+112
+113
+114
+115
+Epoch: 0116 cost= 0.003577122
+BER on test set  0.0048750043
+BER on train set 0.005126953
+116
+117
+118
+119
+optimization finished
+2026-05-10 02:00:00.923157: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+WARNING:tensorflow:From C:\Users\User\Desktop\wcmlbook\ch3\Exercise_3.1\DNN_Detection\Train.py:6: The name tf.disable_v2_behavior is deprecated. Please use tf.compat.v1.disable_v2_behavior instead.
+
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\compat\v2_compat.py:108: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+../H_dataset/
+Load Training Pilots txt
+WARNING:tensorflow:From C:\Users\User\Desktop\wcmlbook\ch3\Exercise_3.1\DNN_Detection\Train.py:103: The name tf.train.RMSPropOptimizer is deprecated. Please use tf.compat.v1.train.RMSPropOptimizer instead.
+
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\training\rmsprop.py:188: calling Ones.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+length of training channel response 3000000 length of testing channel response 1000000
+2026-05-10 02:00:42.476095: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized touse available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-05-10 02:00:42.480378: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:388] MLIR V1 optimization pass is not enabled
+0
+Epoch: 0001 cost= 0.251384051
+Big Test Set
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\util\dispatch.py:1260: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+BER on test set  0.46899998
+BER on train set 0.41381836
+1
+2
+3
+4
+5
+Epoch: 0006 cost= 0.030256929
+BER on test set  0.035749972
+BER on train set 0.022460938
+6
+7
+8
+9
+10
+Epoch: 0011 cost= 0.014798649
+BER on test set  0.021375
+BER on train set 0.0075683594
+11
+12
+13
+14
+15
+Epoch: 0016 cost= 0.011188827
+BER on test set  0.015812516
+BER on train set 0.0078125
+16
+17
+18
+19
+20
+Epoch: 0021 cost= 0.007904878
+BER on test set  0.009374976
+BER on train set 0.0061035156
+21
+22
+23
+24
+25
+Epoch: 0026 cost= 0.006829982
+BER on test set  0.010124981
+BER on train set 0.0053710938
+26
+27
+28
+29
+30
+Epoch: 0031 cost= 0.006534367
+BER on test set  0.010375023
+BER on train set 0.0048828125
+31
+32
+33
+34
+35
+Epoch: 0036 cost= 0.006573216
+BER on test set  0.010812521
+BER on train set 0.0068359375
+36
+37
+38
+39
+40
+Epoch: 0041 cost= 0.006031723
+BER on test set  0.0065624714
+BER on train set 0.008544922
+41
+42
+43
+44
+45
+Epoch: 0046 cost= 0.005970230
+BER on test set  0.006250024
+BER on train set 0.0078125
+46
+47
+48
+49
+50
+Epoch: 0051 cost= 0.005903628
+BER on test set  0.009374976
+BER on train set 0.010253906
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\training\saver.py:1067: remove_checkpoint (from tensorflow.python.checkpoint.checkpoint_management) is deprecated and will beremoved in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+51
+52
+53
+54
+55
+Epoch: 0056 cost= 0.005742109
+BER on test set  0.008312523
+BER on train set 0.0063476562
+56
+57
+58
+59
+60
+Epoch: 0061 cost= 0.005731626
+BER on test set  0.0063124895
+BER on train set 0.008544922
+61
+62
+63
+64
+65
+Epoch: 0066 cost= 0.005683929
+BER on test set  0.007499993
+BER on train set 0.008300781
+66
+67
+68
+69
+70
+Epoch: 0071 cost= 0.005654012
+BER on test set  0.008374989
+BER on train set 0.007080078
+71
+72
+73
+74
+75
+Epoch: 0076 cost= 0.005671108
+BER on test set  0.0061249733
+BER on train set 0.008300781
+76
+77
+78
+79
+80
+Epoch: 0081 cost= 0.005581243
+BER on test set  0.008000016
+BER on train set 0.009521484
+81
+82
+83
+84
+85
+Epoch: 0086 cost= 0.005709073
+BER on test set  0.008187473
+BER on train set 0.006591797
+86
+87
+88
+89
+90
+Epoch: 0091 cost= 0.005592240
+BER on test set  0.0066249967
+BER on train set 0.0075683594
+91
+92
+93
+94
+95
+Epoch: 0096 cost= 0.005614729
+BER on test set  0.0068749785
+BER on train set 0.009033203
+96
+97
+98
+99
+100
+Epoch: 0101 cost= 0.005652279
+BER on test set  0.0078125
+BER on train set 0.008544922
+101
+102
+103
+104
+105
+Epoch: 0106 cost= 0.005793698
+BER on test set  0.008437514
+BER on train set 0.007080078
+106
+107
+108
+109
+110
+Epoch: 0111 cost= 0.005702807
+BER on test set  0.007937491
+BER on train set 0.007080078
+111
+112
+113
+114
+115
+Epoch: 0116 cost= 0.005824980
+BER on test set  0.0078125
+BER on train set 0.008300781
+116
+117
+118
+119
+optimization finished
+2026-05-10 02:15:15.052274: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+WARNING:tensorflow:From C:\Users\User\Desktop\wcmlbook\ch3\Exercise_3.1\DNN_Detection\Train.py:6: The name tf.disable_v2_behavior is deprecated. Please use tf.compat.v1.disable_v2_behavior instead.
+
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\compat\v2_compat.py:108: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+../H_dataset/
+Load Training Pilots txt
+WARNING:tensorflow:From C:\Users\User\Desktop\wcmlbook\ch3\Exercise_3.1\DNN_Detection\Train.py:103: The name tf.train.RMSPropOptimizer is deprecated. Please use tf.compat.v1.train.RMSPropOptimizer instead.
+
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\training\rmsprop.py:188: calling Ones.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+length of training channel response 3000000 length of testing channel response 1000000
+2026-05-10 02:15:56.680770: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized touse available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-05-10 02:15:56.684995: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:388] MLIR V1 optimization pass is not enabled
+0
+Epoch: 0001 cost= 0.251339005
+Big Test Set
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\util\dispatch.py:1260: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+BER on test set  0.48533124
+BER on train set 0.43310547
+1
+2
+3
+4
+5
+Epoch: 0006 cost= 0.036987081
+BER on test set  0.04493749
+BER on train set 0.028808594
+6
+7
+8
+9
+10
+Epoch: 0011 cost= 0.019488443
+BER on test set  0.025125027
+BER on train set 0.015380859
+11
+12
+13
+14
+15
+Epoch: 0016 cost= 0.014732941
+BER on test set  0.021000028
+BER on train set 0.013183594
+16
+17
+18
+19
+20
+Epoch: 0021 cost= 0.011555347
+BER on test set  0.015312493
+BER on train set 0.010986328
+21
+22
+23
+24
+25
+Epoch: 0026 cost= 0.010407856
+BER on test set  0.014750004
+BER on train set 0.010253906
+26
+27
+28
+29
+30
+Epoch: 0031 cost= 0.010064270
+BER on test set  0.014500022
+BER on train set 0.010498047
+31
+32
+33
+34
+35
+Epoch: 0036 cost= 0.009800429
+BER on test set  0.013875008
+BER on train set 0.013427734
+36
+37
+38
+39
+40
+Epoch: 0041 cost= 0.009667957
+BER on test set  0.011250019
+BER on train set 0.012207031
+41
+42
+43
+44
+45
+Epoch: 0046 cost= 0.009385481
+BER on test set  0.015375018
+BER on train set 0.009033203
+46
+47
+48
+49
+50
+Epoch: 0051 cost= 0.009286734
+BER on test set  0.012562513
+BER on train set 0.012207031
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\training\saver.py:1067: remove_checkpoint (from tensorflow.python.checkpoint.checkpoint_management) is deprecated and will beremoved in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+51
+52
+53
+54
+55
+Epoch: 0056 cost= 0.009124929
+BER on test set  0.010999978
+BER on train set 0.009277344
+56
+57
+58
+59
+60
+Epoch: 0061 cost= 0.009078911
+BER on test set  0.013312519
+BER on train set 0.010498047
+61
+62
+63
+64
+65
+Epoch: 0066 cost= 0.009144754
+BER on test set  0.012624979
+BER on train set 0.013916016
+66
+67
+68
+69
+70
+Epoch: 0071 cost= 0.009132815
+BER on test set  0.011749983
+BER on train set 0.017333984
+71
+72
+73
+74
+75
+Epoch: 0076 cost= 0.009219005
+BER on test set  0.013125002
+BER on train set 0.009033203
+76
+77
+78
+79
+80
+Epoch: 0081 cost= 0.009043276
+BER on test set  0.011250019
+BER on train set 0.010498047
+81
+82
+83
+84
+85
+Epoch: 0086 cost= 0.009016532
+BER on test set  0.011874974
+BER on train set 0.01171875
+86
+87
+88
+89
+90
+Epoch: 0091 cost= 0.009140466
+BER on test set  0.012125015
+BER on train set 0.0073242188
+91
+92
+93
+94
+95
+Epoch: 0096 cost= 0.008979844
+BER on test set  0.012187481
+BER on train set 0.013916016
+96
+97
+98
+99
+100
+Epoch: 0101 cost= 0.009245732
+BER on test set  0.0093125105
+BER on train set 0.0107421875
+101
+102
+103
+104
+105
+Epoch: 0106 cost= 0.009109307
+BER on test set  0.010749996
+BER on train set 0.014404297
+106
+107
+108
+109
+110
+Epoch: 0111 cost= 0.009152017
+BER on test set  0.011874974
+BER on train set 0.011962891
+111
+112
+113
+114
+115
+Epoch: 0116 cost= 0.009145462
+BER on test set  0.015124977
+BER on train set 0.011962891
+116
+117
+118
+119
+optimization finished
+2026-05-10 02:30:22.064640: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+WARNING:tensorflow:From C:\Users\User\Desktop\wcmlbook\ch3\Exercise_3.1\DNN_Detection\Train.py:6: The name tf.disable_v2_behavior is deprecated. Please use tf.compat.v1.disable_v2_behavior instead.
+
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\compat\v2_compat.py:108: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+../H_dataset/
+Load Training Pilots txt
+WARNING:tensorflow:From C:\Users\User\Desktop\wcmlbook\ch3\Exercise_3.1\DNN_Detection\Train.py:103: The name tf.train.RMSPropOptimizer is deprecated. Please use tf.compat.v1.train.RMSPropOptimizer instead.
+
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\training\rmsprop.py:188: calling Ones.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+length of training channel response 3000000 length of testing channel response 1000000
+2026-05-10 02:31:03.474595: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized touse available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-05-10 02:31:03.478738: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:388] MLIR V1 optimization pass is not enabled
+0
+Epoch: 0001 cost= 0.249901849
+Big Test Set
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\util\dispatch.py:1260: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+BER on test set  0.35943753
+BER on train set 0.31762695
+1
+2
+3
+4
+5
+Epoch: 0006 cost= 0.017126700
+BER on test set  0.016875029
+BER on train set 0.0075683594
+6
+7
+8
+9
+10
+Epoch: 0011 cost= 0.008803777
+BER on test set  0.010375023
+BER on train set 0.0056152344
+11
+12
+13
+14
+15
+Epoch: 0016 cost= 0.006239969
+BER on test set  0.009437501
+BER on train set 0.0029296875
+16
+17
+18
+19
+20
+Epoch: 0021 cost= 0.003719903
+BER on test set  0.00424999
+BER on train set 0.0014648438
+21
+22
+23
+24
+25
+Epoch: 0026 cost= 0.002959885
+BER on test set  0.0037500262
+BER on train set 0.0026855469
+26
+27
+28
+29
+30
+Epoch: 0031 cost= 0.002827151
+BER on test set  0.004062474
+BER on train set 0.0014648438
+31
+32
+33
+34
+35
+Epoch: 0036 cost= 0.002623871
+BER on test set  0.0033125281
+BER on train set 0.0017089844
+36
+37
+38
+39
+40
+Epoch: 0041 cost= 0.002393615
+BER on test set  0.003125012
+BER on train set 0.0041503906
+41
+42
+43
+44
+45
+Epoch: 0046 cost= 0.002197427
+BER on test set  0.0027499795
+BER on train set 0.0014648438
+46
+47
+48
+49
+50
+Epoch: 0051 cost= 0.002265973
+BER on test set  0.0033749938
+BER on train set 0.0024414062
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\training\saver.py:1067: remove_checkpoint (from tensorflow.python.checkpoint.checkpoint_management) is deprecated and will beremoved in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+51
+52
+53
+54
+55
+Epoch: 0056 cost= 0.002243148
+BER on test set  0.0027499795
+BER on train set 0.001953125
+56
+57
+58
+59
+60
+Epoch: 0061 cost= 0.002104912
+BER on test set  0.003687501
+BER on train set 0.0012207031
+61
+62
+63
+64
+65
+Epoch: 0066 cost= 0.002089738
+BER on test set  0.0038750172
+BER on train set 0.0014648438
+66
+67
+68
+69
+70
+Epoch: 0071 cost= 0.002070983
+BER on test set  0.0027499795
+BER on train set 0.0029296875
+71
+72
+73
+74
+75
+Epoch: 0076 cost= 0.002138601
+BER on test set  0.0026875138
+BER on train set 0.0048828125
+76
+77
+78
+79
+80
+Epoch: 0081 cost= 0.002086138
+BER on test set  0.003000021
+BER on train set 0.0017089844
+81
+82
+83
+84
+85
+Epoch: 0086 cost= 0.002088412
+BER on test set  0.003125012
+BER on train set 0.0024414062
+86
+87
+88
+89
+90
+Epoch: 0091 cost= 0.002099217
+BER on test set  0.0033749938
+BER on train set 0.0017089844
+91
+92
+93
+94
+95
+Epoch: 0096 cost= 0.002046111
+BER on test set  0.0027499795
+BER on train set 0.0029296875
+96
+97
+98
+99
+100
+Epoch: 0101 cost= 0.002063782
+BER on test set  0.00356251
+BER on train set 0.0014648438
+101
+102
+103
+104
+105
+Epoch: 0106 cost= 0.002140541
+BER on test set  0.0028125048
+BER on train set 0.0014648438
+106
+107
+108
+109
+110
+Epoch: 0111 cost= 0.002097972
+BER on test set  0.0023124814
+BER on train set 0.0056152344
+111
+112
+113
+114
+115
+Epoch: 0116 cost= 0.002015387
+BER on test set  0.0021874905
+BER on train set 0.0031738281
+116
+117
+118
+119
+optimization finished
+2026-05-10 02:43:31.879425: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+WARNING:tensorflow:From C:\Users\User\Desktop\wcmlbook\ch3\Exercise_3.1\DNN_Detection\Train.py:6: The name tf.disable_v2_behavior is deprecated. Please use tf.compat.v1.disable_v2_behavior instead.
+
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\compat\v2_compat.py:108: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+../H_dataset/
+Load Training Pilots txt
+WARNING:tensorflow:From C:\Users\User\Desktop\wcmlbook\ch3\Exercise_3.1\DNN_Detection\Train.py:103: The name tf.train.RMSPropOptimizer is deprecated. Please use tf.compat.v1.train.RMSPropOptimizer instead.
+
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\training\rmsprop.py:188: calling Ones.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+length of training channel response 3000000 length of testing channel response 1000000
+2026-05-10 02:44:13.122995: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized touse available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-05-10 02:44:13.127254: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:388] MLIR V1 optimization pass is not enabled
+0
+Epoch: 0001 cost= 0.251228692
+Big Test Set
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\util\dispatch.py:1260: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+BER on test set  0.45854378
+BER on train set 0.3947754
+1
+2
+3
+4
+5
+Epoch: 0006 cost= 0.023778207
+BER on test set  0.0291875
+BER on train set 0.016845703
+6
+7
+8
+9
+10
+Epoch: 0011 cost= 0.010957413
+BER on test set  0.015250027
+BER on train set 0.008300781
+11
+12
+13
+14
+15
+Epoch: 0016 cost= 0.007497860
+BER on test set  0.012562513
+BER on train set 0.0029296875
+16
+17
+18
+19
+20
+Epoch: 0021 cost= 0.004884698
+BER on test set  0.0058125257
+BER on train set 0.0014648438
+21
+22
+23
+24
+25
+Epoch: 0026 cost= 0.003940185
+BER on test set  0.005124986
+BER on train set 0.0007324219
+26
+27
+28
+29
+30
+Epoch: 0031 cost= 0.003802593
+BER on test set  0.0060625076
+BER on train set 0.0009765625
+31
+32
+33
+34
+35
+Epoch: 0036 cost= 0.003521592
+BER on test set  0.003687501
+BER on train set 0.0021972656
+36
+37
+38
+39
+40
+Epoch: 0041 cost= 0.003279237
+BER on test set  0.00424999
+BER on train set 0.004638672
+41
+42
+43
+44
+45
+Epoch: 0046 cost= 0.003081967
+BER on test set  0.003125012
+BER on train set 0.0017089844
+46
+47
+48
+49
+50
+Epoch: 0051 cost= 0.002966354
+BER on test set  0.0055624843
+BER on train set 0.005126953
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\training\saver.py:1067: remove_checkpoint (from tensorflow.python.checkpoint.checkpoint_management) is deprecated and will beremoved in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+51
+52
+53
+54
+55
+Epoch: 0056 cost= 0.002919464
+BER on test set  0.004062474
+BER on train set 0.0034179688
+56
+57
+58
+59
+60
+Epoch: 0061 cost= 0.002934300
+BER on test set  0.0041875243
+BER on train set 0.0026855469
+61
+62
+63
+64
+65
+Epoch: 0066 cost= 0.002905200
+BER on test set  0.0046250224
+BER on train set 0.004638672
+66
+67
+68
+69
+70
+Epoch: 0071 cost= 0.002950244
+BER on test set  0.0033125281
+BER on train set 0.006591797
+71
+72
+73
+74
+75
+Epoch: 0076 cost= 0.002781693
+BER on test set  0.00424999
+BER on train set 0.00390625
+76
+77
+78
+79
+80
+Epoch: 0081 cost= 0.002851300
+BER on test set  0.0032500029
+BER on train set 0.0031738281
+81
+82
+83
+84
+85
+Epoch: 0086 cost= 0.002879760
+BER on test set  0.003000021
+BER on train set 0.0026855469
+86
+87
+88
+89
+90
+Epoch: 0091 cost= 0.002871908
+BER on test set  0.0043125153
+BER on train set 0.0014648438
+91
+92
+93
+94
+95
+Epoch: 0096 cost= 0.002860669
+BER on test set  0.004437506
+BER on train set 0.0034179688
+96
+97
+98
+99
+100
+Epoch: 0101 cost= 0.002893540
+BER on test set  0.003937483
+BER on train set 0.0043945312
+101
+102
+103
+104
+105
+Epoch: 0106 cost= 0.002894056
+BER on test set  0.003937483
+BER on train set 0.0041503906
+106
+107
+108
+109
+110
+Epoch: 0111 cost= 0.002846639
+BER on test set  0.005124986
+BER on train set 0.0034179688
+111
+112
+113
+114
+115
+Epoch: 0116 cost= 0.002830558
+BER on test set  0.004062474
+BER on train set 0.0036621094
+116
+117
+118
+119
+optimization finished
+2026-05-10 02:58:37.814319: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+WARNING:tensorflow:From C:\Users\User\Desktop\wcmlbook\ch3\Exercise_3.1\DNN_Detection\Train.py:6: The name tf.disable_v2_behavior is deprecated. Please use tf.compat.v1.disable_v2_behavior instead.
+
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\compat\v2_compat.py:108: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+../H_dataset/
+Load Training Pilots txt
+WARNING:tensorflow:From C:\Users\User\Desktop\wcmlbook\ch3\Exercise_3.1\DNN_Detection\Train.py:103: The name tf.train.RMSPropOptimizer is deprecated. Please use tf.compat.v1.train.RMSPropOptimizer instead.
+
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\training\rmsprop.py:188: calling Ones.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+length of training channel response 3000000 length of testing channel response 1000000
+2026-05-10 02:59:19.191591: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized touse available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-05-10 02:59:19.195416: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:388] MLIR V1 optimization pass is not enabled
+0
+Epoch: 0001 cost= 0.251243403
+Big Test Set
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\util\dispatch.py:1260: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+BER on test set  0.4873125
+BER on train set 0.4416504
+1
+2
+3
+4
+5
+Epoch: 0006 cost= 0.034687567
+BER on test set  0.043624997
+BER on train set 0.0234375
+6
+7
+8
+9
+10
+Epoch: 0011 cost= 0.016568378
+BER on test set  0.021749973
+BER on train set 0.008300781
+11
+12
+13
+14
+15
+Epoch: 0016 cost= 0.012169821
+BER on test set  0.015250027
+BER on train set 0.0056152344
+16
+17
+18
+19
+20
+Epoch: 0021 cost= 0.008808674
+BER on test set  0.011562526
+BER on train set 0.0034179688
+21
+22
+23
+24
+25
+Epoch: 0026 cost= 0.007672933
+BER on test set  0.011687517
+BER on train set 0.011962891
+26
+27
+28
+29
+30
+Epoch: 0031 cost= 0.007273950
+BER on test set  0.010937512
+BER on train set 0.0063476562
+31
+32
+33
+34
+35
+Epoch: 0036 cost= 0.007076050
+BER on test set  0.009750009
+BER on train set 0.005126953
+36
+37
+38
+39
+40
+Epoch: 0041 cost= 0.006667092
+BER on test set  0.010812521
+BER on train set 0.010009766
+41
+42
+43
+44
+45
+Epoch: 0046 cost= 0.006599068
+BER on test set  0.010124981
+BER on train set 0.0068359375
+46
+47
+48
+49
+50
+Epoch: 0051 cost= 0.006372027
+BER on test set  0.008750021
+BER on train set 0.008300781
+WARNING:tensorflow:From C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\training\saver.py:1067: remove_checkpoint (from tensorflow.python.checkpoint.checkpoint_management) is deprecated and will beremoved in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+51
+52
+53
+54
+55
+Epoch: 0056 cost= 0.006604987
+BER on test set  0.007624984
+BER on train set 0.009277344
+56
+57
+58
+59
+60
+Epoch: 0061 cost= 0.006416696
+BER on test set  0.008875012
+BER on train set 0.005859375
+61
+62
+63
+64
+65
+Epoch: 0066 cost= 0.006261940
+BER on test set  0.009062529
+BER on train set 0.008056641
+66
+67
+68
+69
+70
+Epoch: 0071 cost= 0.006169428
+BER on test set  0.007250011
+BER on train set 0.007080078
+71
+72
+73
+74
+75
+Epoch: 0076 cost= 0.006352725
+BER on test set  0.010249972
+BER on train set 0.009765625
+76
+77
+78
+79
+80
+Epoch: 0081 cost= 0.006479384
+BER on test set  0.00712502
+BER on train set 0.009521484
+81
+82
+83
+84
+85
+Epoch: 0086 cost= 0.006566418
+BER on test set  0.007437527
+BER on train set 0.0048828125
+86
+87
+88
+89
+90
+Epoch: 0091 cost= 0.006363378
+BER on test set  0.007937491
+BER on train set 0.015136719
+91
+92
+93
+94
+95
+Epoch: 0096 cost= 0.006232717
+BER on test set  0.008249998
+BER on train set 0.009277344
+96
+97
+98
+99
+100
+Epoch: 0101 cost= 0.006190436
+BER on test set  0.0098749995
+BER on train set 0.010498047
+101
+102
+103
+104
+105
+Epoch: 0106 cost= 0.006210748
+BER on test set  0.008062482
+BER on train set 0.010498047
+106
+107
+108
+109
+110
+Epoch: 0111 cost= 0.006558029
+BER on test set  0.0070624948
+BER on train set 0.0043945312
+111
+112
+113
+114
+115
+Epoch: 0116 cost= 0.006316742
+BER on test set  0.008875012
+BER on train set 0.006591797
+116
+117
+118
+119
+optimization finished
+??遙?歇摰?嚗?
+請按任意鍵繼續 . . .
